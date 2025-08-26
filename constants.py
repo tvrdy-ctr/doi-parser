@@ -3,6 +3,10 @@ LOG_FORMAT = "%(asctime)s - %(levelname)s - [%(filename)s:%(lineno)d] %(message)
 API_URL_Lookup = {
     "API_URL": "https://api.dev.ror.org/v2/organizations",
 }
+
+# ROR API Client ID
+ROR_CLIENT_ID = "TC5S8W0F8S5CP1KY3Y4BNBN6UY1JHIKG"
+
 organization_to_ror_lookup = {
     "United States. Department of Transportation": "https://ror.org/02xfw2e90",
     "United States. Department of Transportation. Federal Aviation Administration": "https://ror.org/05q0y0j38",
@@ -39,6 +43,7 @@ collections_to_doi_lookup = {
     "Commodity Flow Survey": "https://doi.org/10.21949/1530828",
     "DOT Administrators’ Speeches": "https://doi.org/10.21949/g49k-7k02",
     "DOT Administrators' Speeches": "https://doi.org/10.21949/g49k-7k02",
+    "DOT Administrators' Speeches and Writings": "https://doi.org/10.21949/g49k-7k02",
     "FAA Advisory Circulars": "https://doi.org/10.21949/1530829",
     "FAA Technical Library": "https://doi.org/10.21949/1530830",
     "Federal Aviation Administration": "https://doi.org/10.21949/1530831",
@@ -476,4 +481,3 @@ language_dict = {
     "Zhuang, Chuang": "za",
     "Zulu": "zu",
 }
-confirmed_matches = {}
