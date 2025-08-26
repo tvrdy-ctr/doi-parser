@@ -596,6 +596,7 @@ def process_corporate_field(json_list, field_name, skip_ror_api=False):
                         entry = {
                             "name": ror_name,
                             "nameType": "Organizational",
+                            "contributorType": "Sponsor",
                             "nameIdentifiers": [
                                 {
                                     "schemeUri": "https://ror.org/",
@@ -633,6 +634,7 @@ def process_corporate_field(json_list, field_name, skip_ror_api=False):
                         entry = {
                             "name": ror_name,
                             "nameType": "Organizational",
+                            "contributorType": "Sponsor",
                         }
                     else:
                         entry = {
