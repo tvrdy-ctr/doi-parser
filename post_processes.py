@@ -645,10 +645,19 @@ def process_corporate_field(json_list, field_name, skip_ror_api=False):
                     logging.info(f"ROR for {corporate_value} not found for row {index + 1}.")
                 if "key" in output_structure:
                     key = output_structure["key"]
-                    if key in json_obj:
-                        json_obj[key].append(entry)
-                    else:
+
+                    # If it's publisher, it should be a dict, not a list
+                    if key == "publisher":
                         json_obj[key] = entry
+                    else:
+                        if key in json_obj:
+                            if isinstance(json_obj[key], list):
+                                json_obj[key].append(entry)
+                            else:
+                                # In case something unexpected sneaks in
+                                json_obj[key] = [json_obj[key], entry]
+                        else:
+                            json_obj[key] = [entry]
     return json_list
 
 
