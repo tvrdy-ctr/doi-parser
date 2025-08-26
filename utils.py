@@ -2,6 +2,7 @@ from colorama import Fore, Style, init
 from constants import (
     organization_to_ror_lookup,
     API_URL_Lookup,
+    ROR_CLIENT_ID
 )
 import json
 import logging
@@ -163,7 +164,8 @@ def get_ror_info(corporate_creator, skip_ror_api=False):
         API_URL = API_URL_Lookup["API_URL"]
         logging.info(f"Preparing ORG ID Request for {corporate_creator}")
         
-        response = requests.get(API_URL, params={'affiliation': corporate_creator})
+        headers = {"Client-Id": ROR_CLIENT_ID}
+        response = requests.get(API_URL, headers=headers, params={'affiliation': corporate_creator})
         logging.info(f"Org ID Response Status: {response.status_code}")
         
         if response.status_code != 200:
