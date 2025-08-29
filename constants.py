@@ -120,7 +120,7 @@ series_to_doi_lookup = {
     "Air Carrier Financial Statistics (Yellow Book)": "",
     "Air Carrier Industry Scheduled Service Traffic Stats (Blue Book)": "",
     "Air Carrier Traffic Statistics (Green Book)": "https://doi.org/10.21949/9v8v-2z95",
-    "Air Quality and Sustainable Transportation Highlights": "https://doi.org/10.21949/y3r3-3y74",
+    "Air Quality and Sustainable Transportation Highlights": "https://doi.org/10.21949/y3r3-3y74", #this one is a problem series that CDC hasn't been able to fix
     "Air Travel Consumer Report [Series]": "https://doi.org/10.21949/1530604",
     "Alaskan Regional Intercom": "https://doi.org/10.21949/h86e-mq03",
     "Amendments": "https://doi.org/10.21949/x6ad-nt93",
@@ -128,12 +128,12 @@ series_to_doi_lookup = {
     "Annual Reports of the Maritime Administration": "https://doi.org/10.21949/jp4q-2g37",
     "Attitudes and Behavior Surveys": "https://doi.org/10.21949/45f6-zs20",
     "BTS News": "https://doi.org/10.21949/1524560",
-    "BTS Research Papers": "https://doi.org/10.21949/1524561",
+    "BTS Research Papers": "https://doi.org/10.21949/1524561", #blank series
     "BTS Special Reports and Issue Briefs": "https://doi.org/10.21949/1524545",
-    "BTS Technical Reports": "https://doi.org/10.21949/1524562",
-    "BTS Transportation Trends in Focus": "https://doi.org/10.21949/1524563",
-    "Boyd, Alan S. ": "https://doi.org/10.21949/1530067",
-    "Boyd, Alan S.": "https://doi.org/10.21949/1530067",
+    "BTS Technical Reports": "https://doi.org/10.21949/1524562", #blank series
+    "BTS Transportation Trends in Focus": "https://doi.org/10.21949/1524563", #blank series
+    "Boyd, Alan S. ": "https://doi.org/10.21949/g36a-zm76",
+    "Boyd, Alan S.": "https://doi.org/10.21949/g36a-zm76",
     "Brinegar, Claude S.": "https://doi.org/10.21949/337m-q618",
     "Burnley, Jim": "https://doi.org/10.21949/jsjy-mn93",
     "Busey, James": "https://doi.org/10.21949/rf8g-ng16",
@@ -150,12 +150,12 @@ series_to_doi_lookup = {
     "Dole, Elizabeth Hanford": "https://doi.org/10.21949/dbhc-mv55",
     "Domestic Airline Fares Consumer Report": "https://doi.org/10.21949/kbe4-vy59",
     "Downey, Mortimer L.": "https://doi.org/10.21949/f6hd-7548",
-    "FAA World": "https://doi.org/10.21949/1510479",
+    "FAA World": "https://doi.org/10.21949/1510479", #needs to be updated via spreadsheet
     "Fairbank, Herbert S.": "https://doi.org/10.21949/f4y6-1e44",
     "Federal Aviation Agency Reports": "https://doi.org/10.21949/jkma-y227",
     "Federal Aviation Regulations Amendments": "https://doi.org/10.21949/x6ad-nt93",
     "Federal Aviation Regulations Final Rule": "https://doi.org/10.21949/q598-f030",
-    "Federal Lands Highway": "https://doi.org/10.21949/1529393",
+    "Federal Lands Highway": "https://doi.org/10.21949/1529393", #needs to be updated via spreadsheet
     "FHWA R&T Now": "https://doi.org/10.21949/t5k5-mw25",
     "Final Rule": "https://doi.org/10.21949/q598-f030",
     "Fleet Composition of Rail Tank Cars Carrying Flammable Liquids": "https://doi.org/10.21949/1503662",
@@ -168,7 +168,7 @@ series_to_doi_lookup = {
     "ITS4US Phase 1": "https://doi.org/10.21949/x19d-9098",
     "Innovator": "https://doi.org/10.21949/rqd2-ad80",
     "Journal of Transportation and Statistics": "https://doi.org/10.21949/1524548",
-    "Lewis, Andrew Lindsay, Jr.": "https://doi.org/10.21949/y3a2-6737",
+    "Lewis, Andrew Lindsay, Jr.": "https://doi.org/10.21949/y3a2-6737", #no records ingested yet for this series check back later
     "MacDonald, Thomas Harris": "https://doi.org/10.21949/3zte-nn10",
     "Metrics of Success Series": "https://doi.org/10.21949/pepf-n503",
     "Mukluk Telegraph": "https://doi.org/10.21949/fesn-cq58",
@@ -183,7 +183,8 @@ series_to_doi_lookup = {
     "NHTSA BSR Motor Vehicle Occupant Safety Survey": "https://doi.org/10.21949/r97k-9s30",
     "Nationwide Personal Transportation Survey (NPTS)": "https://doi.org/10.21949/1524552",
     "National Transportation Atlas Database (NTAD)": "https://doi.org/10.21949/1524551",
-    "NHTSA BSR Motor Vehicle Occupant Safety Survey": "",
+    "NHTSA BSR Motor Vehicle Occupant Safety Survey": "https://doi.org/10.21949/r97k-9s30",
+    "NTAD Data Quality Summaries": "https://doi.org/10.21949/1404232", #Leads to ROSA P homepage now. Will need to be redirected when records added in 1 month
     "OmniStats": "https://doi.org/10.21949/1524564",
     "Omnibus Surveys": "https://doi.org/10.21949/1524553",
     "OST-R Research Roundup": "https://doi.org/10.21949/ctgz-8g63",
@@ -202,7 +203,7 @@ series_to_doi_lookup = {
     "Special Federal Aviation Regulations": "https://doi.org/10.21949/b9d0-1n60",
     "State Freight Transportation Profile": "https://doi.org/10.21949/1524556",
     "State Transportation Statistics (STS)": "https://doi.org/10.21949/1503664",
-    "Thermites": "https://doi.org/10.21949/1531069",
+    "Thermites": "https://doi.org/10.21949/1531069", #needs to be updated via spreadsheet
     "Thrust": "https://doi.org/10.21949/zetv-2653",
     "Trade Winds": "https://doi.org/10.21949/b3mk-j264",
     "Transportation Economic Trends (TET)": "https://doi.org/10.21949/1503657",
